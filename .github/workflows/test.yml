@@ -1,0 +1,7 @@
+name: Test Workflow
+on: [push]
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Dummy test workflow"
